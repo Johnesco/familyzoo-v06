@@ -1,32 +1,30 @@
-# Family Zoo — v06 — Openable Things
+# Family Zoo — v06: Openable Things
 
-Makes containers openable and closeable, so a lunchbox and the feed dispenser hide their contents until opened. Teaches the open/closed state machine and the trick for pre-populating closed containers during world setup.
+The supply room, its metal shelves and a cork board. `openable` gives a thing an open and a closed state, and OPEN and CLOSE start working with no code of your own.
 
-Step 6 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 6 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- OpenableTrait with isOpen, canClose, and revealsContents
-- Built-in open and close actions from stdlib
-- Closed containers blocking put-in and hiding contents
-- Temporarily opening a container during initializeWorld to seed items
-- Pattern preview for combining OpenableTrait with LockableTrait
+- `openable` and the state it implies
+- A container that is also openable
+- Rooms reached only through something you must open
+- Descriptions that read correctly whether open or closed
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v06.story`](./familyzoo-v06.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v06-openable-things.md`](./docs/v06-openable-things.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v06
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v06
-python C:/code/ifhub/tools/ship.py familyzoo-v06
+npx sharpee play
+npx sharpee test          # replays familyzoo-v06.tests.json
+python ../tools/build.py familyzoo-v06 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).

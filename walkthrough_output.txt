@@ -5,13 +5,13 @@ You can see a zoo brochure, a zoo map, and a backpack here.
 
 > south
 Main Path
-A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. A park bench sits beside the path. To the east, the petting zoo. To the west, the aviary. A staff gate blocks the path to the south. The entrance is back to the north.
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. A park bench sits beside the path. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
 
 You can see a souvenir penny and a lunchbox here.
 
 > south
 Supply Room
-A cluttered storage room behind the staff gate. Metal shelves line the walls. A cork board on the wall is covered with staff schedules. A battered radio sits on one of the shelves. The staff gate leads back north.
+A cluttered storage room at the south end of the path. Metal shelves line the walls. A cork board on the wall is covered with staff schedules. The main path is back to the north. north.
 
 > x metal shelves
 Industrial metal shelving units stacked with supplies.
