@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "story": "familyzoo-v06",
+  "seed": 42,
+  "cards": [
+    {
+      "type": "opening",
+      "assertions": {
+        "channels": [
+          {
+            "id": "info.title",
+            "is": "Family Zoo (v06 — Openable Things)"
+          },
+          {
+            "id": "info.description",
+            "is": "Sharpee tutorial step 6 — `openable`, and rooms reached through them."
+          }
+        ]
+      }
+    },
+    {
+      "type": "boot",
+      "assertions": {
+        "contains": [
+          "Zoo Entrance",
+          "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "south",
+      "assertions": {
+        "contains": [
+          "Main Path",
+          "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "south",
+      "assertions": {
+        "contains": [
+          "Supply Room",
+          "A cluttered storage room behind the staff gate. Metal shelves line the walls. A cork board"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "x metal shelves",
+      "assertions": {
+        "contains": [
+          "Industrial metal shelving units stacked with supplies."
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "x cork board",
+      "assertions": {
+        "contains": [
+          "A cork board with staff schedules. A note in red marker: \"DON'T FORGET: nocturnal exhibit "
+        ]
+      }
+    }
+  ]
+}
