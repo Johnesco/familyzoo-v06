@@ -7,7 +7,7 @@
 # to, and any verb the story defines itself. Refusals are coverage too
 # — taking scenery should fail, and the transcript records that it did.
 #
-# 5 of 5 rooms swept, 18 of 19 things exercised, 96 commands.
+# 5 of 5 rooms swept, 18 of 19 things exercised, 87 commands.
 #
 # Not exercised — held inside a closed thing, carried from the
 # start, or the player character itself: Alex.
@@ -23,15 +23,11 @@
 > x fence
 > x zoo brochure
 > read zoo brochure
-> i
 > x brochure
 > x zoo map
-> i
 > x map
 > x backpack
 > look in backpack
-> look in backpack
-> i
 > x rucksack
 
 ## Main Path
@@ -42,18 +38,14 @@
 > x flower beds
 > x flowers
 > x souvenir penny
-> i
 > x penny
 > x park bench
 > look on park bench
 > x bench
 > x lunchbox
 > look in lunchbox
-> look in lunchbox
-> i
 > x lunch box
 > x juice box
-> i
 > x juice
 
 ## Supply Room
@@ -151,4 +143,3 @@
 > take metal shelves
 > take cork board
 > score
-> inventory

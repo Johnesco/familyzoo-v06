@@ -45,21 +45,11 @@ EXHIBITS:
 
 "Where every visit is a wild adventure!"
 
-> i
-You are carrying:
-
-a zoo brochure
-
 > x brochure
 A glossy tri-fold brochure with "WILLOWBROOK FAMILY ZOO" on the cover.
 
 > x zoo map
 A colorful folding map of the Willowbrook Family Zoo.
-
-> i
-You are carrying:
-
-a zoo brochure
 
 > x map
 A colorful folding map of the Willowbrook Family Zoo.
@@ -69,14 +59,6 @@ A small red canvas backpack.
 
 > look in backpack
 The backpack is empty.
-
-> look in backpack
-The backpack is empty.
-
-> i
-You are carrying:
-
-a zoo brochure
 
 > x rucksack
 A small red canvas backpack.
@@ -102,11 +84,6 @@ Tidy beds of marigolds and petunias.
 > x souvenir penny
 A shiny copper penny.
 
-> i
-You are carrying:
-
-a zoo brochure
-
 > x penny
 A shiny copper penny.
 
@@ -125,24 +102,11 @@ A dented metal lunchbox decorated with cartoon zoo animals.
 > look in lunchbox
 The lunchbox is closed.
 
-> look in lunchbox
-The lunchbox is closed.
-
-> i
-You are carrying:
-
-a zoo brochure
-
 > x lunch box
 A dented metal lunchbox decorated with cartoon zoo animals.
 
 > x juice box
 You can't see any such thing.
-
-> i
-You are carrying:
-
-a zoo brochure
 
 > x juice
 You can't see any such thing.
@@ -348,6 +312,3 @@ The cork board is fixed in place.
 
 > score
 This isn't that kind of game.
-
-> inventory
-Your pockets are empty.
