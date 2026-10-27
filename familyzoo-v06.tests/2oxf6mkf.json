@@ -1,10 +1,6 @@
 {
-  "version": 1,
-  "story": "familyzoo-v06",
-  "seed": 42,
   "cards": [
     {
-      "type": "opening",
       "assertions": {
         "channels": [
           {
@@ -16,54 +12,62 @@
             "is": "Sharpee tutorial step 6 — `openable`, and rooms reached through them."
           }
         ]
-      }
+      },
+      "id": "95b5ysik",
+      "type": "opening"
     },
     {
-      "type": "boot",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
-      }
+      },
+      "id": "xsa6p4vo",
+      "type": "boot"
     },
     {
-      "type": "turn",
-      "command": "south",
       "assertions": {
         "contains": [
           "Main Path",
           "A wide gravel path winds through the heart of the zoo. Colorful direction signs point ever"
         ]
-      }
+      },
+      "command": "south",
+      "id": "s47sgr42",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "south",
       "assertions": {
         "contains": [
           "Supply Room",
           "A cluttered storage room at the south end of the path. Metal shelves line the walls. A cor"
         ]
-      }
+      },
+      "command": "south",
+      "id": "b92osa19",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "x metal shelves",
       "assertions": {
         "contains": [
           "Industrial metal shelving units stacked with supplies."
         ]
-      }
+      },
+      "command": "x metal shelves",
+      "id": "b2v6m7kt",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "x cork board",
       "assertions": {
         "contains": [
           "A cork board with staff schedules. A note in red marker: \"DON'T FORGET: nocturnal exhibit "
         ]
-      }
+      },
+      "command": "x cork board",
+      "id": "pmim1xtq",
+      "type": "turn"
     }
-  ]
+  ],
+  "id": "2oxf6mkf"
 }
