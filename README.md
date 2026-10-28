@@ -13,7 +13,7 @@ Step 6 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tut
 
 ## The source
 
-The whole step is one file: [`familyzoo-v06.story`](./familyzoo-v06.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v06-openable-things.md`](./docs/v06-openable-things.md).
+The whole step is one file: [`familyzoo-v06.story`](./familyzoo-v06.story) — the step before it plus the ideas above. Where it sits in the trail is on the [group page](https://johnesco.github.io/familyzoo/#familyzoo-v06).
 
 ## Playing and testing
 
