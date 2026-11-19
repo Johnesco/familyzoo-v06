@@ -11,20 +11,14 @@
             "id": "info.description",
             "is": "Sharpee tutorial step 6 — `openable`, and rooms reached through them."
           }
-        ]
-      },
-      "id": "95b5ysik",
-      "type": "opening"
-    },
-    {
-      "assertions": {
+        ],
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
       },
-      "id": "xsa6p4vo",
-      "type": "boot"
+      "id": "95b5ysik",
+      "type": "opening"
     },
     {
       "assertions": {
